@@ -1,0 +1,190 @@
+@media only screen and (min-width: 1201px){
+    .items{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 20px;
+    }
+    .last-minute-app{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .Footer{
+        display: none;
+    }
+    footer{
+          width: 100%;
+          font-size: 18px;
+          margin-top: 80px;
+    }
+    .footer2 {
+         display: flex;
+         justify-content: center;
+         gap: 70px;
+     }
+      .leftside{
+        gap: 50px;
+    }
+    .rightside{
+        gap: 90px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+    .items{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 15px;
+    }
+    .last-minute-app{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .Footer{
+        display: none;
+    }
+    footer{
+          width: 100%;
+          font-size: 15px;
+          margin-top: 50px;
+    }
+    .footer2 {
+          display: flex;
+          justify-content: center;
+          gap: 50px;
+     }
+    .leftside{
+        gap: 40px;
+    }
+    .rightside{
+        gap: 60px;
+    }
+   .grand-parent{
+    width: 100%;
+    margin: 30px auto 30px auto;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 990px){
+   header{
+        align-items: stretch;
+        gap: 15px;
+        padding: 10px;
+    }
+    .logo{
+        padding: 10px 20px 10px 10px;
+    }
+    .headerAddress{
+        padding: 5px 30px;
+    }
+    .headerAddress h3{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .headerAddress p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .searchbox input{
+        font-size: 15px;
+    }
+    .searchbox button{
+        padding: 2px 15px;
+    }
+   .headerright{
+        justify-content: center;
+        width: 100%;
+        margin-right: 0;
+        position: fixed;
+        bottom: 30px;
+    }
+     .main-image{
+        margin-top: 20px;
+        max-width: 85%;
+        }
+    .main-image img{
+        width: 100%;
+        height: auto;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5,1fr);
+        gap: 10px;
+    }
+    footer{
+        display: none;
+    }
+
+
+}
+
+
+@media only screen and (min-width:0px) and (max-width: 600px) 
+{
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+        padding: 20px;
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px 20px;
+    }
+    .headerAddress{
+        padding: 20px;
+    }
+    .headerAddress h3{
+        font-size: 20px;
+    }
+    .headerAddress p{
+        font-size: 15px;
+    }
+    .searchbox button{
+        padding: 18px;
+    }
+    .headerright{
+        justify-content: center;
+        width: 100%;
+        margin-right: 0;
+        position: fixed;
+        bottom: 50px;
+    }
+    .main-image{
+        display: none;
+        }
+    .sub-images{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .sub-images img{
+        width: 100%;
+        height: auto;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(7,1fr);
+        gap: 10px;
+    }
+    footer{
+        display: none;
+    }
+}
